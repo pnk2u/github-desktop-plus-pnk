@@ -99,3 +99,36 @@ h1, h2, h3 {
 #desktop-app-container {
   border: 2px solid var(--color-pnku);
 }
+
+#diff img, .image-wrapper {
+  height: 100% !important;
+  width: 100% !important;
+  image-rendering: pixelated !important;
+}
+
+.image-container-border {
+  position: absolute !important;
+}
+
+.panel.image .image-diff-previous img, .panel.image .image-diff-current img {
+  border: none !important;
+}
+
+input[type=range] {
+  appearance: none;
+  height: 4px;
+  margin-top: 16px;
+  padding-top: 4px;
+  border-radius: 3px;
+}
+
+input[type=range]::-webkit-slider-thumb {
+  border: 1px solid var(--color-pnku);
+  height: 16px;
+  width: 16px;
+  border-radius: 2px;
+  background: var(--color-blue-700);
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin: -10px 0;
+}
