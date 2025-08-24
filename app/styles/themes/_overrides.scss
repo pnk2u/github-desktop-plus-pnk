@@ -46,6 +46,12 @@ h1, h2, h3 {
   font-size: 16px !important;
 }
 
+.byline {
+  font-size: 8px !important;
+  font-family: Galmuri7, monospace !important;
+  opacity: 0.85;
+}
+
 #desktop-app-title-bar {
   background-color: var(--color-gray-darker-1) !important;
 }
@@ -131,4 +137,9 @@ input[type=range]::-webkit-slider-thumb {
   cursor: pointer;
   -webkit-appearance: none;
   margin: -10px 0;
+}
+
+*::selection {
+  background-color: var(--color-blue-500);
+  color: white;
 }
